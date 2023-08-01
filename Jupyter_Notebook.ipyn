@@ -1,0 +1,204 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<center>\n",
+    "    <img src=\"https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork/labs/Module2/images/SN_web_lightmode.png\" width=\"300\" alt=\"cognitiveclass.ai logo\">\n",
+    "</center>\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Add your code below following the instructions given in the course\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "tags": []
+   },
+   "source": [
+    "Jupyter_Notebook"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Create and share Jupyter Notebook. This is an introduction for exercise 3."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Here is a list of data science languages. These Include:\n",
+    "- Python\n",
+    "- R\n",
+    "- Julia\n",
+    "- Scala\n",
+    "- Java"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Here's a list of data science libraries.\n",
+    "- Pandas\n",
+    "- NumPy\n",
+    "- Matplotlib\n",
+    "- Seaborn\n",
+    "- Scikit-learn\n",
+    "- TensorFlow\n",
+    "- Keras\n",
+    "- PyTorch\n",
+    "- StatsModels\n",
+    "- SciPy"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "| Table of Data Science tools |\n",
+    "|-----------------------------|\n",
+    "| Programming                 |\n",
+    "| Data Analysis               |\n",
+    "| Machine Learning            |\n",
+    "| Data Visualization          |\n",
+    "| Data Mining                 |"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Arithmetic Expression Examples\n",
+    "\n",
+    "We will explore some basic arithmetic expressions using various operators.\n",
+    "1. Addition: 5 + 3 = 8\n",
+    "2. Subtraction: 10 - 4 = 6\n",
+    "3. Multiplication: 3 * 5 = 15\n",
+    "4. Division: 20 / 4 = 5\n",
+    "5. Exponentiation: 2 ** 3 = 8 (2 raised to the power of 3)\n",
+    "6. Modulo: 15 % 4 = 3 (remainder of the division of 15 by 4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Result of multiplication: 30\n",
+      "Result of addition: 32\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Define the numbers\n",
+    "num1 = 6\n",
+    "num2 = 5\n",
+    "num3 = 2\n",
+    "\n",
+    "# Multiply num1 and num2\n",
+    "result_mult = num1 * num2\n",
+    "\n",
+    "# Add the result to num3\n",
+    "result_add = result_mult + num3\n",
+    "\n",
+    "# Print the results\n",
+    "print(\"Result of multiplication:\", result_mult)\n",
+    "print(\"Result of addition:\", result_add)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "180 minutes is equal to 3.0 hours.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Function to convert minutes to hours\n",
+    "def minutes_to_hours(minutes):\n",
+    "    return minutes / 60\n",
+    "\n",
+    "# Example usage\n",
+    "minutes = 180\n",
+    "hours = minutes_to_hours(minutes)\n",
+    "print(f\"{minutes} minutes is equal to {hours} hours.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Objectives\n",
+    "\n",
+    "We have completed:\n",
+    "1. List of Data Science Languages\n",
+    "2. List of Data Science Libraries\n",
+    "3. 3. Table of Data Science Tools\n",
+    "4. Arithmetic Expression Examples\n",
+    "5. Multiplied two numbers. Added two numbers\n",
+    "6. Converted minutes to hours."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Author's Name\n",
+    "\n",
+    "My name goes here. Don't want to put actual name."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python",
+   "language": "python",
+   "name": "conda-env-python-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
